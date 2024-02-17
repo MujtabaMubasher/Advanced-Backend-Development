@@ -14,13 +14,13 @@ const connectionDb =  async ()=>{
 
         // console.log(`${process.env.MONGODB_URI}/${DB_NAME}`);
 
-       app.on('error',(error)=>{
-        console.log('Server Error Occuer: ',error);
-       })
+    //    app.on('error',(error)=>{
+    //     console.log('Server Error Occuer: ',error);
+    //    })
 
-       app.listen(process.env.PORT , ()=>{
-        console.log(`The App is listing on the Port: ${process.env.PORT}`);
-       })
+    //    app.listen(process.env.PORT , ()=>{
+    //     console.log(`The App is listing on the Port: ${process.env.PORT}`);
+    //    })
       }  
     
     catch (error) {
